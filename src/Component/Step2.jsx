@@ -14,21 +14,21 @@ const step2 = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:justify-center">
           <div className="border w-[150px] h-[150px] rounded-[10px]">
-            <i class="fa-solid fa-gamepad fa-2x text-orange-300 px-2 py-1"></i>
+            <i className="fa-solid fa-gamepad fa-2x text-orange-300 px-2 py-1"></i>
             <div className="mt-[45px]">
               <p className="px-2 text-[#3444e0] text-xl font-mono">Arcade</p>
               <p className="text-slate-300 px-2 font-serif">$9/mo</p>
             </div>
           </div>
           <div className="border w-[150px] h-[150px] rounded-[10px]">
-            <i class="fa-solid fa-gamepad fa-2x text-orange-300 px-2 py-1"></i>
+            <i className="fa-solid fa-gamepad fa-2x text-orange-300 px-2 py-1"></i>
             <div className="mt-[45px]">
               <p className="px-2 text-[#3444e0] text-xl font-mono">Advanced</p>
               <p className="text-slate-300 px-2 font-serif">$12/mo</p>
             </div>
           </div>
           <div className="border w-[150px] h-[150px] rounded-[10px]">
-            <i class="fa-solid fa-puzzle-piece fa-2x text-orange-300 px-2 py-1"></i>
+            <i className="fa-solid fa-puzzle-piece fa-2x text-orange-300 px-2 py-1"></i>
             <div className="mt-[45px]">
               <p className="px-2 text-[#3444e0] text-xl font-mono">Pro</p>
               <p className="text-slate-300 px-2 font-serif">$15/mo</p>
