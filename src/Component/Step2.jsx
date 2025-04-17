@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./button";
 
 const step2 = () => {
   return (
@@ -33,21 +34,13 @@ const step2 = () => {
               <p className="text-slate-300 px-2 font-serif">$15/mo</p>
             </div>
           </div>
-
-          <div className="flex gap-10">
-            <button className="font-mono bg-[#2f3dd6] text-[#00040E] px-6 py-3 rounded-[10px] mt-6 text-[#FFFFFF]">
-              Go Back
-            </button>
-            <button className="font-mono bg-[#2f3dd6] text-[#00040E] px-6 py-3 rounded-[10px] mt-6 text-[#FFFFFF]">
-              Next Step
-            </button>
-          </div>
         </div>
         <div className="border h-[40px] w-full mt-[20px] rounded-[10px] flex justify-around py-1 sm:px-42 bg-slate-100">
-          <p className="text-center font-mono text-blue-200">Monthly</p>
+          <p className="text-center font-mono text-blue-700">Monthly</p>
           <input className="py-1" type="checkbox" />
           <p className="text-center font-mono text-blue-200">Yearly</p>
         </div>
+        <Button />
       </div>
     </div>
   );
