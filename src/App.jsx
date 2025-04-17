@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Step1, Step2, Step3 } from "./Component";
+import { Step1, Step2, Step3, Last } from "./Component";
 
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
       <Step1 />
       <Step2 />
       <Step3 />
+      <Last />
     </div>
   );
 };
